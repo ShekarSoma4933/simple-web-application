@@ -5,7 +5,7 @@ node ('master')
   
   stage("CheckOut Repository")
   {
-   git branch: 'master', credentialsId: '65fb834f-a83b-4fe7-8e11-686245c47a65', url: 'https://github.com/ShekarSoma4933/DevopsPractise.git'
+   git branch: 'master', credentialsId: '65fb834f-a83b-4fe7-8e11-686245c47a65', url: 'https://github.com/ShekarSoma4933/simple-web-application.git'
   }
   /*
   stage("Execute SonarQube Report")
