@@ -25,7 +25,7 @@ node ('master')
   sh "${mavenHome}/bin/mvn deploy"
   }
   }*/
- 
+ /*
   stage('Build Docker Image'){
         sh 'docker build -t shekarsoma4933/simple-web-app .'
     }
@@ -36,6 +36,7 @@ node ('master')
         }
         sh 'docker push shekarsoma4933/simple-web-app'
      }
+   */
   /*
   stage("Deploy To Kuberates Cluster")
   {
